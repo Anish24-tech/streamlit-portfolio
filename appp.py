@@ -1,7 +1,7 @@
 import streamlit as st
 
-#page configuration
-st.set_page_configuration(page_title="My  portfolia,page icon="*"")
+# Page config
+st.set_page_config(page_title="My Portfolio", page_icon="🌟")
 
 # Sidebar
 st.sidebar.title("Navigation")
@@ -32,8 +32,8 @@ elif menu == "Projects":
 # Contact
 elif menu == "Contact":
     st.header("📞 Contact Me")
-    email = st.text_input("Enter your email id")
-    msg = st.text_area("Your message")
+    email = st.text_input("Enter your mail id")
+    msg = st.text_area("Your message regarding issues or suggestions")
 
     if st.button("Send"):
-        st.success("Message sent successfully ✅")
+        st.success("Message sent successfully ✅ ")
